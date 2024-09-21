@@ -39,12 +39,12 @@
 
 ### 📂 Project Structure / Структура проекта:
 
-- `scraper.py` — The main script file that sends requests to the API and saves data in JSON format.
+- `main.py` — The main script file that sends requests to the API and saves data in JSON format.
 - `requirements.txt` — A file containing the required dependencies for the project.
 
 ---
 
-- `scraper.py` — Основной файл скрипта, который выполняет запросы к API и сохраняет данные в формате JSON.
+- `main.py` — Основной файл скрипта, который выполняет запросы к API и сохраняет данные в формате JSON.
 - `requirements.txt` — Файл с зависимостями для установки необходимых библиотек.
 
 ---
@@ -53,12 +53,12 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/one-one-five/WordPress_Posts_Scraper.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd your-repo
+   cd WordPress_Posts_Scraper
    ```
 
 3. Install the required dependencies:
@@ -70,19 +70,19 @@
 
 5. Run the script:
    ```bash
-   python scraper.py
+   python main.py
    ```
 
 ---
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/one-one-five/WordPress_Posts_Scraper.git
    ```
 
 2. Перейдите в директорию проекта:
    ```bash
-   cd your-repo
+   cd WordPress_Posts_Scraper
    ```
 
 3. Установите необходимые зависимости:
@@ -94,7 +94,7 @@
 
 5. Запустите скрипт:
    ```bash
-   python scraper.py
+   python main.py
    ```
 
 ---
@@ -149,7 +149,7 @@ pip install -r requirements.txt
 ### 🏆 Example usage / Пример использования:
 
 ```bash
-python scraper.py
+python main.py
 ```
 
 The result will be saved in a JSON file with post data.
